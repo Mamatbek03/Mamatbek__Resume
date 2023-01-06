@@ -1,0 +1,49 @@
+@media all and (max-width: 1024px) {
+  .skills__left {
+    width: 55%;
+  }
+}
+@media all and (max-width: 768px) {
+  .header__h1 > img {
+    width: 15%;
+  }
+  .header__line {
+    left: 25%;
+  }
+  .header__name {
+    font-size: 25px;
+  }
+  .header__info > p {
+    margin-left: 0;
+  }
+  .abuot_me__img-2 {
+    left: 13%;
+  }
+  .about_me__reigth {
+    width: 50%;
+  }
+  /* .skills__img {
+    height: 325px;
+  } */
+  .skills__list-1 {
+    margin: 25px 0;
+  }
+}
+@media all and (max-width: 426px) {
+  .container {
+    width: 100%;
+  }
+  navbar {
+    display: none;
+  }
+  .header__info > p {
+    display: none;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+  }
+  .header__line {
+    display: none;
+  }
+}
